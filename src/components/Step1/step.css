@@ -680,7 +680,7 @@ p {
   }
 
   .step_1_grid_inside > section {
-    width: 70%;
+    width: 80%;
   }
   .step_3 {
     width: 80%;
@@ -689,6 +689,9 @@ p {
     padding: 10px 30px;
 
     font-size: 13px;
+  }
+  .step_1_grid_inside {
+    width: 90%;
   }
   .stepper_00 > section > span {
     width: 40px;
