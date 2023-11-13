@@ -1,0 +1,93 @@
+.navbar_outer_00 {
+  height: 1.5%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px 0px;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 17px;
+  z-index: 100;
+}
+
+.navbar_outer_00 > p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Eudoxus Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.navbar_outer_00 > button {
+  display: flex;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #f29a2e1a;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+}
+.navbar_outer_00 > button > p {
+  color: #ff8c00;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Eudoxus Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+.navbar_outer_00 > span {
+  display: flex;
+  gap: 3px;
+  position: relative;
+}
+
+.navbar_outer_00 > p {
+  color: #1b3f67;
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#redot {
+  position: absolute;
+  right: 0%;
+}
+
+p {
+  margin: 0;
+}
+
+#hamburg {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .navbar_outer_00 {
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-end;
+
+    margin: 0px 8px 4px 4px;
+  }
+  .navbar_outer_00 > p {
+    font-size: 8px;
+  }
+  #hamburg {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .navbar_outer_00 > span > p {
+    font-size: 8px;
+  }
+  .navbar_outer_00 > button > p {
+    font-size: 8px;
+  }
+  .navbar_outer_00 > img {
+    width: 23px;
+  }
+}

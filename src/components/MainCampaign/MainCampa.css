@@ -1,0 +1,291 @@
+.MainCamp_outer {
+  width: 1220px;
+  height: 100vh;
+  background: #f6f9ff;
+  margin-left: 10%;
+  margin-top: 65px;
+  gap: 22px;
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+}
+.MainCamp_outer > section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.MainCamp_outer > section > span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.MainCamp_outer > section > button {
+  padding: 14px;
+  background-color: #0f6eff;
+  outline: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+
+.MainCamp_outer > section > span > h1 {
+  color: #000;
+  font-family: "Eudoxus Sans";
+  font-size: 24px;
+  font-style: normal;
+  padding: 0px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.MainCamp_outer > section > span > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  padding: 0px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.main_inside_table {
+  width: 95%;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #dae6ff;
+  background: #fff;
+}
+
+.table_toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_toolbar > input {
+  padding: 10px;
+  outline: none;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.table_toolbar > section {
+  display: flex;
+  gap: 10px;
+}
+
+.table_toolbar > section > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.table_toolbar > section > span > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  margin: 0;
+  font-weight: 400;
+}
+.table_toolbar > section > span > section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.table_toolbar > section > span > section > input {
+  padding: 10px;
+  outline: none;
+  width: 80px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+input[type="text2"]::placeholder {
+  color: black;
+}
+
+.table_toolbar > section > span > section > img {
+  cursor: pointer;
+  position: absolute;
+  right: 9%;
+  top: 42%;
+}
+
+.table_header_data {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+}
+
+.table_header {
+  width: 97%;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid #eaeaea;
+  background: #f8f8f8;
+}
+
+.table_header > span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.table_header_data > section {
+  display: flex;
+  padding: 30px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_header_data > section > span > section {
+  display: flex;
+  gap: 10px;
+}
+
+.table_header_data > section > span > section > img {
+  width: 45px;
+  height: 45px;
+}
+
+.table_header_data > section > span > section > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.table_header_data > section > span > section > span > p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Eudoxus Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.table_header_data > section > span > section > span > h6 {
+  margin: 0;
+  color: #000;
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.table_header_data > section > span {
+  color: #000;
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  display: flex;
+    justify-content: center;
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+#status {
+  border-radius: 24px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 23px;
+  margin-right: 6px;
+}
+
+p {
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 40px;
+  height: 20px;
+  background: grey;
+  display: flex;
+  border-radius: 100px;
+  position: relative;
+  transition: left 0.9s ease-in-out;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 7px;
+  background: #fff;
+  /* border-radius: 14px; */
+  transition: left 0.4s ease-in-out, ;
+}
+
+input:checked + label {
+  background: #0f6eff;
+}
+
+input:checked + label:after {
+  left: calc(100% - 1px);
+    transform: translateX(-10px);
+}
+
+label:active:after {
+  width: 80px;
+}
+
+@media (max-width: 720px) {
+  .MainCamp_outer {
+    margin-left: 35%;
+  }
+  label {
+    width: 40px;
+    height: 20px;
+  }
+  label:after {
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+  }
+  label:active:after {
+    width: 80px;
+  }
+  input:checked + label:after {
+    left: calc(100% - 1px);
+    transform: translateX(-10px);
+  }
+}

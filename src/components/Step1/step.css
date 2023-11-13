@@ -1,0 +1,710 @@
+.step_outer {
+  width: 100vw;
+  height: 100vh;
+  background: #f6f9ff;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin-bottom: 20px;
+}
+
+.step_outer_00 {
+  width: 85%;
+  position: relative;
+  /* top: 12%; */
+  padding-top: 80px;
+  margin-left: 11%;
+  gap: 22px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.step_outer_00 > section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.step_outer_00 > section > h1 {
+  color: #000;
+  font-family: "Eudoxus Sans";
+  font-size: 24px;
+  font-style: normal;
+  padding: 0px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.step_outer_00 > section > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  padding: 0px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.step_1 {
+  width: 95%;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #dae6ff;
+  background: #fff;
+}
+
+.step_1 > span {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.step_4_grid > span {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.step_4_grid > span > h6 {
+  color: #000;
+  font-family: " Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.step_4_grid > span > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.step_1 > span > h6 {
+  color: #000;
+  font-family: " Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.step_1 > span > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.step_1 > p {
+  margin-top: 8px;
+  width: 100%;
+  background-color: #eaeaea;
+  height: 2px;
+}
+
+.step_1_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 13px;
+}
+
+.step_1_grid_inside > section {
+  cursor: pointer;
+  position: relative;
+  margin-top: 13px;
+  width: 86%;
+  display: flex;
+  gap: 17px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1.5px solid #0f6eff;
+}
+
+.step_1_grid_inside > section > span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.step_1_grid_inside > section > span > p {
+  color: rgba(11, 26, 51, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.step_1_grid_inside > section > span > h6 {
+  color: #0b1a33;
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.step_1_grid_inside {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.step_1_grid_inside > img {
+  position: absolute;
+  right: 1%;
+}
+
+#step2_image {
+  right: 6%;
+  top: 44%;
+}
+
+.step_outer_00 > button {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #0f6eff;
+  padding: 10px 40px;
+  color: #fff;
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.step_3_outside {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.step_3 {
+  width: 65%;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #dae6ff;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.step_3 > span {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.step_3 > span > h6 {
+  color: #000;
+  font-family: " Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.step_3 > span > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.step_3 > p {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #eaeaea;
+  height: 2px;
+}
+
+.step_3_outside > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f6eff;
+  padding: 10px 40px;
+  color: #fff;
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.step_3_table {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.step_3_00 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.step_3_00 > p {
+  width: 2px;
+  height: 255px;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+.step_3_00 > span {
+  width: 24px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  color: white;
+  background-color: #0f6eff;
+}
+
+.step_3_001 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.step_3_01 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.step_3_01 > p {
+  color: #000;
+  font-family: "Eudoxus Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+.step_3_01 > span {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.step_3_01 > span > button {
+  width: 150px;
+  align-items: center;
+  display: flex;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.step_3_01 > span > button  >section{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step_3_01 > span > p {
+  color: #606060;
+  font-family: "Eudoxus Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.step_3_01 > section {
+  display: flex;
+  gap: 20px;
+  width: 99%;
+}
+
+.step_3_01 > section > span {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.step_3_01 > section > span > p {
+  color: #606060;
+  font-family: "Eudoxus Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.step_3_01 > section > span > input {
+  padding: 14px;
+  outline: none;
+  width: 93%;
+  border-radius: 10px;
+  border: 1px solid #dae6ff;
+  background: #fff;
+}
+
+.step_3_01 > section > span > img {
+  position: absolute;
+  top: 48%;
+  right: 2%;
+  cursor: pointer;
+}
+
+.budget_money {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.budget_money > section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budget_money > section > p {
+  color: #606060;
+  font-family: "Eudoxus Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.budget_money > section > span {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.budget_money > section > span > p {
+  color: #000;
+  font-family: "Eudoxus Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.step_4_grid {
+  width: 95%;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #dae6ff;
+  background: #fff;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+
+  /* gap: 10px; */
+  /* max-width: 300px;  */
+  margin-top: 13px;
+}
+
+.step4_outside_grid {
+  margin-top: 13px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.step_4_grid_inside {
+  position: relative;
+
+  padding: 12px;
+
+  /* margin-top: 13px; */
+}
+
+.step_4_grid > p {
+  margin-top: 8px;
+  width: 100%;
+  background-color: #eaeaea;
+  height: 2px;
+}
+
+.step_4_grid_inside_00 > section {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+.step_4_grid_inside_00 > section > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.step_4_grid_inside_00 > section > span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.step_4_grid_inside_00 > section > span > p {
+  color: #767676;
+  font-family: "Gilroy-Medium";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+.step_4_grid_inside_00 > section > span > h6 {
+  color: #2b23a5;
+  font-family: "Gilroy-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.step_4_grid_inside_00 {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1.5px solid #0f6eff;
+
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  padding: 20px;
+}
+.step_4_grid_inside > img {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+.step_4_grid_inside_00 > p {
+  display: flex;
+  color: #000;
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.step_4_grid_image {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.step_4_grid_image > img {
+  width: 100%;
+  height: 147.657px;
+}
+
+.step_4_grid_image > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step_4_grid_image > span > p {
+  color: #2b23a5;
+  font-family: "Gilroy-SemiBold";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.step_4_grid_image > span > button {
+  border: 1px #ced0d4 solid;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.step_4_edit {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.step_4_edit > button {
+  width: 50%;
+  border-radius: 5px;
+  background: rgba(15, 110, 255, 0.1);
+  color: #0f6eff;
+  padding: 17px 0px;
+  font-family: " Eudoxus Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+
+.stepper_00 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepper_00 > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.stepper_00 > section > span {
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  /* background-color: #E4EAF2; */
+  background-color: #f29a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.stepper_00 > section > span > img {
+  position: absolute;
+}
+
+.stepper_00 > section > p {
+  color: #0b1a33;
+  font-family: "Eudoxus Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.stepper_00 > p {
+  width: 20%;
+  height: 2px;
+  background-color: #ffb963;
+}
+
+.slider-container {
+  /* margin: 20px; */
+  padding-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.range-slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.selected-value {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.slider-container > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount {
+  font-size: 0.8em;
+}
+
+.slider-container > section > span {
+  color: #606060;
+  font-family: "Eudoxus Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+.slider-tooltip {
+  position: absolute;
+  bottom: 10%;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  transition: left 0.1s ease;
+}
+.arrow-up {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  border-bottom-color: #333;
+  border-width: 8px;
+  margin-left: -8px;
+}
+
+@media (max-width: 720px) {
+  .step_1 {
+    width: 80%;
+    margin: 13px auto;
+  }
+  .step_4_grid {
+    width: 80%;
+    margin: 13px auto;
+  }
+  .step_3_outside {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin: 13px auto;  */
+  }
+
+  .step_1_grid_inside > section {
+    width: 70%;
+  }
+  .step_3 {
+    width: 80%;
+  }
+  .step_outer_00 > button {
+    padding: 10px 30px;
+
+    font-size: 13px;
+  }
+  .stepper_00 > section > span {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .stepper_00 > section > p {
+    font-size: 13px;
+  }
+  .step_outer_00 {
+    margin: 0 auto;
+  }
+  .step_outer_00 > section > h1 {
+    font-size: 20px;
+  }
+  .step_outer_00 > section > p {
+    font-size: 12px;
+  }
+}
